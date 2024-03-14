@@ -7,10 +7,10 @@ export default function Post({props}) {
     return (
         <article className={styles.article}>
             <h1>{props.title}</h1>
-            <p>{props.text}</p>
+            <p className={styles.myText}>{props.text}</p>
             <ul>
                 <li>
-                    <Link href={"/"}>More Details</Link>
+                    <Link href={`posts/${props.id}`} className={styles.myLink}>More Details</Link>
                 </li>
             </ul>
         </article>
