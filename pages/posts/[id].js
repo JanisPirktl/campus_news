@@ -1,9 +1,18 @@
 import PostsAPI from "@/lib/api/Posts";
 import Link from "next/link";
 import styles from "./[id].module.css"
+import {useRouter} from "next/router";
+import PostAPI from "@/lib/api/Posts";
 
 
 export default function DetailPost({post}) {
+
+    const router = useRouter()
+    const {id} = router.query
+
+    const handleDelete = async() => {
+        await PostAPI.delete(post)
+    }
 
     return !post ? null : (
         <div className={styles.article}>
@@ -15,7 +24,10 @@ export default function DetailPost({post}) {
                     <Link href={"/"} className={styles.myLink}>Back</Link>
                 </li>
                 <li>
-                    <Link href={`/edit/${post.id}`} className={styles.myLink}>Edit</Link>
+                    <Link href={`/posts/edit/${post.id}`} className={styles.myLink}>Edit</Link>
+                </li>
+                <li>
+                    <Link className={styles.myLink} href={`/`} onClick={handleDelete}>Delete</Link>
                 </li>
 
             </ul>

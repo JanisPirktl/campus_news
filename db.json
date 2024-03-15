@@ -49,38 +49,6 @@
       "text": "Toller Beitrag!",
       "createdAt": "2022-02-11T09:51:48.975Z",
       "updatedAt": "2022-02-11T14:56:42.167Z"
-    },
-    {
-      "text": "test",
-      "userId": 1,
-      "postId": 13,
-      "createdAt": "2022-02-14T16:01:15.738Z",
-      "updatedAt": "2022-02-14T16:01:15.738Z",
-      "id": 2
-    },
-    {
-      "text": "testfdas fda",
-      "userId": 1,
-      "postId": 13,
-      "createdAt": "2022-02-14T16:11:36.578Z",
-      "updatedAt": "2022-02-14T16:11:36.578Z",
-      "id": 3
-    },
-    {
-      "text": "f asdfsad fsdafasdf",
-      "userId": 1,
-      "postId": 13,
-      "createdAt": "2022-02-14T16:13:24.165Z",
-      "updatedAt": "2022-02-14T16:13:24.165Z",
-      "id": 4
-    },
-    {
-      "text": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
-      "userId": 2,
-      "postId": 13,
-      "createdAt": "2022-02-15T06:55:22.700Z",
-      "updatedAt": "2022-02-15T06:55:22.700Z",
-      "id": 5
     }
   ],
   "users": [

@@ -1,12 +1,10 @@
 import PostForm from "@/components/PostForm";
 
 
-export default function Create() {
+export default function CreatePage() {
     return (
-        <div className={styles.body}>
-            <div id={styles.title}>
-                <h1>Create Post</h1>
-            </div>
+        <div>
+            <h1>Create Post</h1>
             <PostForm/>
         </div>
     );
